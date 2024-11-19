@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import matplotlib
 matplotlib.rcParams['figure.figsize'] = (20,10)
 
-df1=pd.read_csv(r"C:\Users\Tanya\OneDrive\Desktop\PM Project\Bengaluru_House_Data.csv")
+df1=pd.read_csv(r"Bengaluru_House_Data.csv")
 df1.head()
 
 df1.shape
